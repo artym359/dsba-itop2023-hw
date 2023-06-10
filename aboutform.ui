@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>aboutform</class>
+ <widget class="QDialog" name="aboutform">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>563</width>
+    <height>262</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <item>
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>Motorcycle Specifications Dataset
+The application conveniently displays information about used motorcycles.
+Dataset page - https://www.kaggle.com/datasets/nehalbirla/motorcycle-dataset
+The columns in the given dataset are as follows:
+1. Name - string (contains name of motorcycle)
+2. Selling price - integer
+3. Year - integer
+4. Owner - string
+5. Kilometers driven - integer (does not exceed 880000)
+</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
